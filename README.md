@@ -1,10 +1,8 @@
-# Sovithyea Prach
+# Hi, I'm Sovithyea Prach 
 
-**CS/IT Student · Melbourne, Australia **
+>  AI student @ Swinburne University of Technology based in Melbourne, Australia 🇦🇺
 
-I'm a Computer Science student with a strong interest in machine learning, data-driven problem solving, and building things that bridge software with the real world. I enjoy projects where the outcome is measurable — from predictive models with trackable accuracy to apps that solve a genuine personal need.
-
-Currently open to **internship opportunities** in software engineering, data science, or ML — Melbourne or remote.
+I write code that occasionally does what I want. Currently studying a Bachelor's of Computer Science, Majoring in Artificial Intelligence and building things that combine machine learning, data, and the sports I actually care about.
 
 ---
 
@@ -15,21 +13,41 @@ Currently open to **internship opportunities** in software engineering, data sci
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 ![Kotlin](https://img.shields.io/badge/Kotlin-7F52FF?style=for-the-badge&logo=kotlin&logoColor=white)
+![C](https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white)
+![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)
+![C#](https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=csharp&logoColor=white)
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 
 **ML & Data Science**
 
+![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
+![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
 ![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
 ![XGBoost](https://img.shields.io/badge/XGBoost-FF6600?style=for-the-badge&logo=xgboost&logoColor=white)
 ![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
 ![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
 ![Matplotlib](https://img.shields.io/badge/Matplotlib-11557C?style=for-the-badge&logo=matplotlib&logoColor=white)
+![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white)
 
-**Mobile & Tools**
+**Web & Frameworks**
+
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![Flask](https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-005571?style=for-the-badge&logo=fastapi&logoColor=white)
+
+**Mobile**
 
 ![Android](https://img.shields.io/badge/Android-3DDC84?style=for-the-badge&logo=android&logoColor=white)
 ![Room DB](https://img.shields.io/badge/Room_DB-3DDC84?style=for-the-badge&logo=android&logoColor=white)
+![Kotlin Coroutines](https://img.shields.io/badge/Coroutines-7F52FF?style=for-the-badge&logo=kotlin&logoColor=white)
+![Material Design](https://img.shields.io/badge/Material_Design_3-757575?style=for-the-badge&logo=material-design&logoColor=white)
+
+**Cloud & Tools**
+
+![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white)
+![Azure](https://img.shields.io/badge/Azure-0078D4?style=for-the-badge&logo=microsoft-azure&logoColor=white)
+![GCP](https://img.shields.io/badge/GCP-4285F4?style=for-the-badge&logo=google-cloud&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 ![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
 
@@ -38,72 +56,68 @@ Currently open to **internship opportunities** in software engineering, data sci
 ## Featured Projects
 
 ### [World Cup 2026 Winner Predictor](https://github.com/sovithyea/2026_worldcup_prediction)
+> *Because someone has to do the maths before the tournament.*
 
-A machine learning pipeline that forecasts tournament win probabilities for all 48 World Cup 2026 nations using historical match data, ELO ratings, and Monte Carlo simulation.
+A full ML pipeline that predicts tournament win probabilities for all 48 World Cup 2026 nations — without picking one deterministic winner, because football doesn't work like that.
 
-Rather than predicting a single winner, the model simulates the entire 48-team tournament 10,000 times to produce a probability distribution — a more statistically honest approach that respects the inherent randomness of knockout football.
-
-**Highlights:**
-- Trained on 49,000+ international match records (1872–present, filtered to 1994+)
-- Dynamic ELO rating system that updates after every match and weights competitive fixtures over friendlies
-- TimeSeriesSplit cross-validation to prevent data leakage across time
-- Achieves ~57% accuracy on held-out matches vs 48.5% naive baseline
-
-**Tech:** `Python` `XGBoost` `scikit-learn` `Pandas` `NumPy`
+- **How it works:** Trains an XGBoost classifier on 49,000+ historical international matches (1994–present) to predict individual match outcomes (win/draw/loss), then simulates the entire tournament 10,000 times via Monte Carlo to produce win probabilities
+- **Why it's interesting:** Uses dynamic ELO ratings (not FIFA rankings) that update after every match and weight tournament fixtures higher than friendlies. TimeSeriesSplit cross-validation ensures the model never "peeks" at future results
+- **Results:** ~57% accuracy on held-out matches vs a 48.5% naive baseline
+- **Tech:** `Python` `XGBoost` `Pandas` `NumPy` `scikit-learn`
 
 ---
 
-### [2026 F1 Race Predictor](https://github.com/sovithyea/2026_f1_prediction)
+### [2026 F1 Race Predictor](https://github.com/sovithyea/2026_f1_prediction) (Still Updating)
+> *Predicting who DNFs so you don't have to.*
 
-A live-updating race prediction system that forecasts finishing positions for every round of the 2026 Formula 1 World Championship, trained incrementally on real FastF1 telemetry data as the season progresses.
+A live-updating machine learning system that predicts race finishing positions for every round of the 2026 Formula 1 season, trained on real FastF1 telemetry data as the season unfolds.
 
-The model automatically fetches and integrates new session data each race weekend, using FP1/FP2/FP3 best-lap deltas and qualifying gaps as primary features — with FP2 long-run pace weighted most heavily as the strongest race-pace indicator.
-
-**Highlights:**
-- Gradient Boosting Regressor trained on all completed 2026 rounds, growing more accurate as the season unfolds
-- 5-stage workflow per race weekend (FP1 → FP2 → FP3 → qualifying → result), with intelligent fallback for sprint weekends
-- Automatic FastF1 API integration with local caching; season accuracy tracked via `tracker.py`
-- Correctly predicts podium positions across 7 completed rounds
-
-**Tech:** `Python` `scikit-learn` `FastF1` `Pandas` `Matplotlib`
+- **How it works:** A Gradient Boosting Regressor trains incrementally on completed 2026 race rounds, using qualifying gaps, FP1/FP2/FP3 session deltas, and team performance scores as features. Predictions auto-update as new session data becomes available each race weekend
+- **Why it's interesting:** The model adapts in real-time across a live season — it gets smarter after every GP. FP2 long-run pace is weighted most heavily as the strongest race-pace signal, with graceful fallback for sprint weekends (no FP3)
+- **Currently tracking:** 7 rounds complete, season accuracy logged via `tracker.py`
+- **Tech:** `Python` `scikit-learn` `FastF1` `Pandas` `Matplotlib`
 
 ---
 
 ### [Instagram Stats Tracker](https://github.com/sovithyea/instagram_stats_tracker) (In Progress)
+> *Find out who unfollowed you. No third-party app required.*
 
-A privacy-focused web dashboard for analysing your Instagram social graph using your official data export — no third-party services, no API access required.
+A privacy-first web dashboard that parses your official Instagram data export and gives you a complete breakdown of your social graph — who follows you, who doesn't follow back, unfollowers, and full account history. Runs entirely in your browser; no data leaves your device.
 
-Parses Instagram's JSON export, computes follower/following set differences, and presents a clean breakdown of followers, unfollowers, and account history. Supports multiple accounts with PIN-based access control. All processing runs client-side; no data leaves the browser.
-
-**Tech:** `JavaScript` `HTML` `CSS`
+- **How it works:** Reads Instagram's JSON export format, computes set differences between followers and following lists, and renders a clean dashboard with filterable tables and history views
+- **Why it's interesting:** No scraping, no Instagram API, no privacy concerns. Supports multiple accounts with PIN protection so housemates can't snoop
+- **Tech:** `JavaScript` `HTML` `CSS`
 
 ---
 
 ### [Claude API in Python](https://github.com/sovithyea/claude_api_in_python)
+> *Beyond the chat window.*
 
-A structured Python integration for calling Anthropic's Claude models programmatically — demonstrating clean API request handling, response parsing, and building AI-powered workflows beyond the chat interface.
+A clean Python integration layer for calling Anthropic's Claude models directly from code — for when the chat interface isn't enough.
 
-**Tech:** `Python` `Anthropic SDK`
+- **Tech:** `Python` `Anthropic SDK`
 
 ---
 
 ### [Ktis Cafe Website](https://github.com/sovithyea/st287_ktiscafe_website)
+> *Made with love for my mum's cafe.*
 
-A hand-coded cafe website built from scratch for a personal project, demonstrating responsive layout, custom CSS styling, and clean semantic HTML — no frameworks or templates.
+A hand-coded cafe website built from scratch — no frameworks, no templates. Just HTML, CSS, and the motivation of making something nice for someone who matters.
 
-**Tech:** `HTML` `CSS`
+- **Tech:** `HTML` `CSS`
 
 ---
 
 ### [CRUD Note App — Android](https://github.com/sovithyea/crud_note_app)
+> *Notes. On your phone. Offline. That's it.*
 
-A modern Android notes application with full Create, Read, Update, and Delete functionality, built in Kotlin with Room database persistence and a clean DAO architecture for local, offline-first data management.
+A modern Android notes app built in Kotlin with full CRUD functionality, local Room Database persistence, live search, pinned notes, and a usability-tested UI — backed by a formal study comparing toolbar icons vs pill buttons (pill buttons won: 26.3s avg vs 37.2s).
 
-**Tech:** `Kotlin` `Android` `Room DB`
+- **Tech:** `Kotlin` `Android` `Room DB` `Kotlin Coroutines` `Material Design 3` `RecyclerView`
 
 ---
 
-## 📈 GitHub Stats
+## GitHub Stats
 
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=sovithyea&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" alt="Sovithyea's GitHub Stats" height="165"/>
@@ -117,11 +131,13 @@ A modern Android notes application with full Create, Read, Update, and Delete fu
 
 ---
 
-## 📬 Contact
+## Get in Touch
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/sovithyea-prach)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/YOUR-LINKEDIN-HERE)
 [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/sovithyea)
-[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:your.email@example.com)
+[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](prachsovithyea11@gmail.com)
+
+> *Open to internship opportunities in software engineering, data, and ML — Melbourne or remote.*
 
 ---
 
