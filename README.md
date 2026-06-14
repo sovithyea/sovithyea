@@ -29,6 +29,8 @@ I write code that occasionally does what I want. Currently studying a Bachelor's
 ![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
 ![Matplotlib](https://img.shields.io/badge/Matplotlib-11557C?style=for-the-badge&logo=matplotlib&logoColor=white)
 ![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white)
+![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white)
+![YOLO](https://img.shields.io/badge/YOLO-00FFFF?style=for-the-badge&logo=yolo&logoColor=black)
 
 **Web & Frameworks**
 
@@ -50,6 +52,14 @@ I write code that occasionally does what I want. Currently studying a Bachelor's
 ![GCP](https://img.shields.io/badge/GCP-4285F4?style=for-the-badge&logo=google-cloud&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 ![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
+
+---
+ 
+## Trophies
+ 
+<p align="center">
+  <img src="https://github-trophies.vercel.app/?username=sovithyea&theme=tokyonight&no-frame=true" alt="GitHub Trophies"/>
+</p>
 
 ---
 
@@ -124,9 +134,17 @@ A modern Android notes app built in Kotlin with full CRUD functionality, local R
   &nbsp;
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=sovithyea&layout=compact&theme=tokyonight&hide_border=true&langs_count=6" alt="Top Languages" height="165"/>
 </p>
-
 <p align="center">
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=sovithyea&theme=tokyonight&hide_border=true" alt="GitHub Streak"/>
+</p>
+
+
+---
+ 
+## Coding Activity 
+ 
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api/wakatime?username=sovithyea&theme=tokyonight&hide_border=true&layout=compact" alt="WakaTime Stats"/>
 </p>
 
 ---
