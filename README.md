@@ -1,4 +1,4 @@
-# Hi, I'm Sovithyea Prach 
+# Hallo, I'm Sovithyea Prach (Vith) 
 
 >  AI student @ Swinburne University of Technology based in Melbourne, Australia 🇦🇺
 
