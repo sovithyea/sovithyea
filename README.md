@@ -65,6 +65,14 @@ I write code that occasionally does what I want. Currently studying a Bachelor's
 </p>
 
 ---
+ 
+## Coding Activity 
+ 
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api/wakatime?username=sovithyea&theme=tokyonight&hide_border=true&layout=compact" alt="WakaTime Stats"/>
+</p>
+
+---
 
 ## Featured Projects
 
@@ -127,14 +135,6 @@ A hand-coded cafe website built from scratch — no frameworks, no templates. Ju
 A modern Android notes app built in Kotlin with full CRUD functionality, local Room Database persistence, live search, pinned notes, and a usability-tested UI — backed by a formal study comparing toolbar icons vs pill buttons (pill buttons won: 26.3s avg vs 37.2s).
 
 - **Tech:** `Kotlin` `Android` `Room DB` `Kotlin Coroutines` `Material Design 3` `RecyclerView`
-
----
- 
-## Coding Activity 
- 
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/wakatime?username=sovithyea&theme=tokyonight&hide_border=true&layout=compact" alt="WakaTime Stats"/>
-</p>
 
 ---
 
