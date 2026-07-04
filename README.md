@@ -80,7 +80,7 @@ I write code that occasionally does what I want. Currently studying a Bachelor's
 
 ## Featured Projects
 
-### [FoodRaccoon](https://foodraccoon.vercel.app) — [repo](https://github.com/sovithyea/foodraccoon)
+### [FoodRaccoon](https://foodracoon.vercel.app) — [repo](https://github.com/sovithyea/foodraccoon)
 > *Restaurant discovery, but it actually knows where you are.*
 
 Full-stack restaurant discovery app for Phnom Penh, with map-based search, filtering, and live location data.
