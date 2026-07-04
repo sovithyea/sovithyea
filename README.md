@@ -68,20 +68,12 @@ I write code that occasionally does what I want. Currently studying a Bachelor's
 ## GitHub Stats
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=sovithyea&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" alt="Sovithyea's GitHub Stats" height="165"/>
+  <img src="https://github-readme-stats-sigma-five.vercel.app/api?username=sovithyea&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" alt="Sovithyea's GitHub Stats" height="165"/>
   &nbsp;
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=sovithyea&layout=compact&theme=tokyonight&hide_border=true&langs_count=6&hide=jupyter%20notebook" alt="Top Languages" height="165"/>
+  <img src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=sovithyea&layout=compact&theme=tokyonight&hide_border=true&langs_count=6&hide=jupyter%20notebook" alt="Top Languages" height="165"/>
 </p>
 <p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=sovithyea&theme=tokyonight&hide_border=true" alt="GitHub Streak"/>
-</p>
-
----
-
-## Coding Activity
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/wakatime?username=sovithyea&theme=tokyonight&hide_border=true&layout=compact" alt="WakaTime Stats"/>
+  <img src="https://streak-stats.demolab.com/?user=sovithyea&theme=tokyonight&hide_border=true" alt="GitHub Streak"/>
 </p>
 
 ---
@@ -148,6 +140,7 @@ Clean Python integration layer for calling Anthropic's Claude models directly fr
 - **Tech:** `Python` `Anthropic SDK`
 
 ---
+
 
 ## Get in Touch
 
