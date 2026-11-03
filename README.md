@@ -55,7 +55,7 @@ I build AI-powered products end to end, from a React Native app with real tester
 <tr>
 <td width="50%" valign="top">
 
-### 🦝 [HungryRaccoon](https://hungryraccoonapp.com)
+### 🦝 [yummers: Restuarant Lists App](https://yummersapp.com)
 **A social food diary for Cambodia: rate where you ate, make lists, follow friends.**
 
 React Native app (iOS and Android from one codebase) on Supabase, with a Next.js reference web app and a shared TypeScript core. Postgres row-level security instead of a custom server. Around 6,150 places in the dev catalogue across six launch cities. v2 of my earlier [FoodRaccoon](https://foodraccoon.vercel.app).
